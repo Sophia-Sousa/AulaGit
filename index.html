@@ -5,7 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Git Hub </title>
 </head>
+
+<style>
+
+.tela-piscando {
+
+    margin: 20;
+    padding: 20;
+
+  /* Nome da animação */
+  animation: piscar 1s infinite;
+}
+
+/* Definindo a animação */
+@keyframes piscar {
+  0% { background-color: aqua;} /* 0% do tempo da animação, visível */
+  50% { background-color: blue; } /* 50% do tempo, invisível */
+  100% { background-color: aqua;} /* 100% do tempo, visível novamente */
+}
+
+</style>
 <body>
+
+    <nav class="tela-piscando"> Git </nav>
+    <nav class="tela-piscando "> GitHub </nav>
     
     <h1 border="4" align="center" style="color: blueviolet;"> Aulinha de Git Hub</h1>
 
